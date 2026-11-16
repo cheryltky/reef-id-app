@@ -1,5 +1,7 @@
 # 🪸 Reef ID App
 
+![Cover](assets/cover.png)
+
 Coral reef photo classifier and survey logger: upload a dive photo, get **CORAL** (healthy) vs **CORAL_BL** (bleached) from the [NOAA ESD ViT classifier](https://huggingface.co/NMFS-OSI/noaa-esd-coral-bleaching-vit-classifier-v1), and log predictions with optional latitude/longitude to a CSV.
 
 **Stack:** Streamlit, Hugging Face Transformers, Pandas. Deploy on **Hugging Face Spaces** (recommended: free, persistent storage, auto-deploy from GitHub).
